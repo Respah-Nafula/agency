@@ -1,0 +1,354 @@
+nav ul li{
+   display: inline;
+    list-style: none;
+    float: right;
+     display: flex;
+     color: black;
+     align-items: center;
+     margin-top: -15px;
+     margin-right: 15%;
+     
+     }
+
+     .Ag button{
+         margin-left: 90%;
+         margin-bottom: -20%;
+         background-color: #0000ff;
+         border-radius: 35px;
+
+     } 
+
+     .cont{
+        margin-top: -13%;
+        margin-left: 10%;
+       color: rgb(49, 204, 204);
+    
+     }.body{
+            background-color:rgb(214, 250, 250);
+            height:100vh;
+            width:-100%;
+             overflow-x: hidden;
+    
+     }
+     .proj{
+         margin-left: 19%;
+         margin-top: -3%;
+         
+
+     }
+     .inst{
+         display: inline flex;
+     }
+
+     .product{
+         font-size: medium;
+         font-family: 'Times New Roman', Times, serif;
+         margin-right: 2%;
+         margin-bottom: 20%;
+
+     }
+     .instagram{
+         margin-top: 8%;
+         /* color: #ffff00; */
+         margin-left: 22%;
+         font-size: 40px;
+         background-color: #ffff00;
+         width: 48px;
+         height: 48px;
+         text-align: center;
+         border-radius: 20px;
+
+
+     }
+     .twitter{
+        /* color: #43a192; */
+        margin-top: -3.7%;
+        margin-left: 15%;
+        font-size: 40px;
+        background-color: #43a192;
+        height: 48px;
+        width: 48px;
+        border-radius: 20px;
+        text-align: center;
+
+
+     }
+     
+     .first button{
+         border: solid 5px;
+         border-radius: 25px;
+
+
+     }
+     .photo1{
+     margin-right: 45px;
+     float: right;
+     background-image: url(splash-removebg-preview.png);
+    
+     margin-top: -23%;
+
+     
+     
+
+     }
+     .Experience p1,p2,p3{
+         display: flex;
+         justify-content: center;
+         padding: 40px;
+         font-size: 20px;
+         margin-top: 9%;
+         float: right;
+       background-color: rgb(228, 252, 252);
+       width: 210px;
+         padding: 30px;
+         border-radius: 2px;
+       
+       
+         
+     }
+     .prud{
+         display: flex;
+         margin-left: 10%;
+         float: left;
+         padding-left: 5%;
+         margin-top: 2%;
+         padding-right: 5px;
+     }
+     .slack{
+         padding: 2px;
+         margin-left: 3%;
+         font-size: 24px;
+
+     }.prudential{
+     color: #808080;
+     padding: 5%;
+     margin-left: 9%;
+     padding-bottom: -20%;
+     margin-top: -11%;
+
+}
+.zoover{
+    margin-left: 20%;
+}
+.ms{
+    margin-left: 30%;
+}
+
+.Agen{
+    display: flex;
+    margin-top: 40%;
+    margin-right: 50%;
+    font-size: medium;
+
+}
+.sev{
+    margin-top: -15%;
+    margin-left: 50%;
+}
+.Help{
+ font-size: 24px;
+ margin-top: -10%;
+ text-align: center;
+}
+.main{
+    display: flex;
+    padding: 2%;
+    margin-left: 3%;
+    font-size: 24px;
+    background-color: #eaf6fe;
+}
+.design{
+    padding: 2%;
+
+}
+.dev{
+    padding: 2%;
+    background-color:#43a192 ;
+
+
+}
+.market{
+    padding: 2%;
+    
+}.operation{
+    display: flex;
+    margin-top: 7%;
+    background-color: #eaf6fe;
+
+
+}.black{
+    background: no-repeat;
+ background-image: url(splasher.jpeg);
+ margin-left: -15%;
+ 
+
+ }
+ .full{
+     margin-top: 8%;
+
+    
+
+ }.ranges{
+     margin-top: 7%;
+     margin-left: -35%;
+     text-align: left;
+    border-width: 20%;
+     
+ }
+ .projects{
+     font-size: 24px;
+
+ }
+ .full h1{
+     background-color: rgb(100, 216, 216);
+     height: 34px;
+     width: 320px;
+     border-radius: 50px;
+     text-align: center;
+     
+    
+ }
+ .full p{
+     background-color: #0000ff;
+     width: 25px;
+     font-size: 25px;
+     text-align: center;
+     border-radius: 50px;
+     height: 25px;
+     margin-top: -15%;
+     margin-left: 2%;
+ }
+ 
+ 
+ 
+ .skills h1{
+     margin-top: 14%;
+     margin-left: 16%;
+    
+ }
+  .skills p{
+    background-color: #00ff0d;
+    w5idth: 25px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+    height: 25px;
+    margin-top: -15%;
+    margin-left: 2%;
+  }
+ 
+ .merchant h1{
+     margin-top: 18%;
+     margin-left: 15%;
+    
+
+ }.merchant p{
+    background-color: #0026ff;
+    width: 25px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+    height: 25px;
+    margin-top: -15%;
+    margin-left: 2%;
+
+ }
+ .second{
+     background-color: #eaf6fe;
+ }
+ .sign{
+     font-size: 24px;
+     background-color: #f0f8ff;
+
+ }.second button{
+      background-color: #0000ff;
+      margin-left: 7%;
+ 
+ }
+ .last{
+     background-color: #f5f5f5;
+
+ }
+ .product h1{
+     margin-left: 10%;
+     font-size: 33px;
+ }
+ .product p{
+     margin-left: 10%;
+     font-size: 29px;
+ }
+ .mail{
+    align-content: center;
+    font-size: 25px;
+    width: 700px;
+    height: 200px;
+    margin-bottom: 100px;
+    margin-left: 14%;
+    border-radius: 10px;
+ }.mind h1{
+     font-size: 24px;
+ }
+ .update{
+        text-align: center;
+        margin-top: 2%; 
+        background-color: white;
+        height: 50%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        text-align: center;
+    }
+    .email{
+        margin-left: 10%;
+        margin-bottom: -10%;
+    
+    }
+    .mail input{
+        width: 600px;
+        height: 10vh;
+        background-color: rgb(158, 248, 210);
+        border-radius: 20px;
+        border: none;
+    }
+    .mail button{
+        margin-left: -11%; 
+        width: 80px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(67, 67, 216);
+    }.image2{
+
+        margin-left: 35%;
+        margin-top: -16%;
+    }
+    .operation p{
+        margin-top: -32%;
+        margin-left: 22%;
+    }
+
+    .mind h1{
+        margin-top: -28%;
+        margin-left: 20%;
+    }
+    .name{
+        margin-left: 20%;
+    }
+    .message{
+        margin-left: 20%;
+        margin-top: 4%;
+    }
+    
+     
+    .butt{
+        margin-left: 20%;
+        margin-top: 4%;
+        color: #00ff0d;
+    }
+
+ 
+ 
+
+    
+
+
+
