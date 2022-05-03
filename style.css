@@ -1,39 +1,49 @@
-nav ul li{
-   display: inline;
-    list-style: none;
-    float: right;
-     display: flex;
-     color: black;
-     align-items: center;
-     margin-top: -15px;
-     margin-right: 15%;
-     
+.navigation{
+     display: inline-flex;
+     color: black; 
+     margin-left: 30%;
+     margin-top: -50%;
+     list-style: none;
+     margin-right: 3%;
+     }
+     .abu{
+         margin-top: 5%;
+     }
+     .btn{
+         margin-left: 30%;
      }
 
-     .Ag button{
+     p{
+         font-size: 30px;
+         margin-top: 1%;
+     }
+     nav button{
          margin-left: 90%;
-         margin-bottom: -20%;
-         background-color: #0000ff;
-         border-radius: 35px;
+        background-color: #0000ff;
+        border: none;
+        margin-top: -5%;
 
-     } 
+     }
 
-     .cont{
-        margin-top: -13%;
+     .contact{
+        margin-top: -14%;
         margin-left: 10%;
-       color: rgb(49, 204, 204);
+        width: 70px;
     
-     }.body{
-            background-color:rgb(214, 250, 250);
-            height:100vh;
-            width:-100%;
-             overflow-x: hidden;
     
+     }
+     body{
+            background-color: #d7d9e7;
      }
      .proj{
-         margin-left: 19%;
+         background-color: #f5f5f5;
+         color: #d7d9e7;
+         font-weight: bold;
+         border-radius: 31px;
+         margin-left: 20%;
          margin-top: -3%;
-         
+         width: 100px;
+
 
      }
      .inst{
@@ -46,10 +56,11 @@ nav ul li{
          margin-right: 2%;
          margin-bottom: 20%;
 
+
+
      }
      .instagram{
          margin-top: 8%;
-         /* color: #ffff00; */
          margin-left: 22%;
          font-size: 40px;
          background-color: #ffff00;
@@ -61,7 +72,6 @@ nav ul li{
 
      }
      .twitter{
-        /* color: #43a192; */
         margin-top: -3.7%;
         margin-left: 15%;
         font-size: 40px;
@@ -72,6 +82,8 @@ nav ul li{
         text-align: center;
 
 
+     }.first{
+         background-color: #d7d9e7;
      }
      
      .first button{
@@ -85,27 +97,27 @@ nav ul li{
      float: right;
      background-image: url(splash-removebg-preview.png);
     
-     margin-top: -23%;
+     margin-top: -35%;
 
      
      
 
      }
      .Experience p1,p2,p3{
+         
          display: flex;
-         justify-content: center;
-         padding: 40px;
          font-size: 20px;
-         margin-top: 9%;
+         margin-top: 5%;
          float: right;
-       background-color: rgb(228, 252, 252);
+       background-color: #f5f5f5;
        width: 210px;
          padding: 30px;
          border-radius: 2px;
-       
-       
-         
+         margin: 1%;
+         margin-left: 10%;
+          
      }
+     
      .prud{
          display: flex;
          margin-left: 10%;
@@ -113,64 +125,80 @@ nav ul li{
          padding-left: 5%;
          margin-top: 2%;
          padding-right: 5px;
-     }
-     .slack{
-         padding: 2px;
-         margin-left: 3%;
-         font-size: 24px;
 
-     }.prudential{
+     }.slack{
+         margin-bottom: 10%;
+     }
+     .prudential{
      color: #808080;
-     padding: 5%;
-     margin-left: 9%;
+    
+     margin-left: -8%;
      padding-bottom: -20%;
-     margin-top: -11%;
+     margin-top: 4%;
 
 }
 .zoover{
     margin-left: 20%;
+    margin-top: 9%;
 }
 .ms{
-    margin-left: 30%;
+    margin-left: 15%;
+    margin-top: 8%;
 }
 
 .Agen{
     display: flex;
-    margin-top: 40%;
+     margin-top: 40%;
     margin-right: 50%;
-    font-size: medium;
 
-}
-.sev{
-    margin-top: -15%;
+}.Help{
     margin-left: 50%;
+    margin-top: 10%;
+    font-size: 20px;
 }
-.Help{
- font-size: 24px;
- margin-top: -10%;
- text-align: center;
-}
+
+
 .main{
     display: flex;
     padding: 2%;
     margin-left: 3%;
-    font-size: 24px;
     background-color: #eaf6fe;
+    height: 500px;
+    margin-bottom: -10%;
 }
 .design{
     padding: 2%;
+    margin-bottom: 50%;
 
+}.design p{
+    font-size: 20px;
+    margin-bottom: 15%;
+
+}.design h3{
+    margin-top: 2%;
 }
+
 .dev{
     padding: 2%;
     background-color:#43a192 ;
+    height: 200px;
 
 
+}.dev p{
+    font-size: 20px;
+    margin-bottom: -8%;
+}
+.dev h1{
+    margin-bottom: 5%;
 }
 .market{
     padding: 2%;
+
     
-}.operation{
+}.market p{
+    font-size: 20px;
+}
+.operation{
     display: flex;
     margin-top: 7%;
     background-color: #eaf6fe;
@@ -178,8 +206,9 @@ nav ul li{
 
 }.black{
     background: no-repeat;
- background-image: url(splasher.jpeg);
- margin-left: -15%;
+ background-image: url(coloured-removebg-preview.png);
+ margin-left: 2%;
+ margin-right: 15%;
  
 
  }
@@ -188,70 +217,51 @@ nav ul li{
 
     
 
- }.ranges{
-     margin-top: 7%;
-     margin-left: -35%;
+ }.ranges p{
+     margin-top: 2%;
+     margin-left: -30%;
      text-align: left;
-    border-width: 20%;
+    /* border-width: 20%; */
+    
      
  }
- .projects{
-     font-size: 24px;
-
+ .ranges2{
+   margin-left: -17%;
+   margin-top: 13%;  
  }
- .full h1{
-     background-color: rgb(100, 216, 216);
-     height: 34px;
-     width: 320px;
-     border-radius: 50px;
-     text-align: center;
-     
-    
- }
- .full p{
-     background-color: #0000ff;
-     width: 25px;
-     font-size: 25px;
-     text-align: center;
-     border-radius: 50px;
-     height: 25px;
-     margin-top: -15%;
-     margin-left: 2%;
- }
- 
- 
- 
- .skills h1{
-     margin-top: 14%;
-     margin-left: 16%;
-    
- }
-  .skills p{
-    background-color: #00ff0d;
-    w5idth: 25px;
-    font-size: 25px;
-    text-align: center;
-    border-radius: 50px;
-    height: 25px;
-    margin-top: -15%;
-    margin-left: 2%;
+ .ranges3{
+    margin-left: -25%;
+    margin-top: 19%;  
   }
  
- .merchant h1{
-     margin-top: 18%;
-     margin-left: 15%;
-    
 
- }.merchant p{
-    background-color: #0026ff;
-    width: 25px;
-    font-size: 25px;
-    text-align: center;
-    border-radius: 50px;
-    height: 25px;
-    margin-top: -15%;
-    margin-left: 2%;
+ .work h5{
+     margin-top: 10%;
+ }
+ .projects {
+     font-size: 24px;
+     margin-top: -10%;
+     margin-left: 4%
 
+
+ }.full {
+
+   background-color: #00ff0d;
+    border-radius: 25px;
+    border:solid 10px;
+ }
+ .technical{
+     border-radius: 20px;
+     border:solid  10px;
+     color: #0000ff;
+     border-color: #0000ff;
+     margin-bottom: 20%;
+ }
+ .merchant{
+    color: #ffff00;
+     border: solid   10px; 
+     border-radius: 25px;
+     margin-right: 10%;
  }
  .second{
      background-color: #eaf6fe;
@@ -287,6 +297,7 @@ nav ul li{
     border-radius: 10px;
  }.mind h1{
      font-size: 24px;
+     margin-top: -10%;
  }
  .update{
         text-align: center;
@@ -316,38 +327,71 @@ nav ul li{
         border: none;
         border-radius: 20px;
         background-color: rgb(67, 67, 216);
-    }.image2{
-
-        margin-left: 35%;
-        margin-top: -16%;
-    }
-    .operation p{
-        margin-top: -32%;
-        margin-left: 22%;
-    }
-
-    .mind h1{
-        margin-top: -28%;
-        margin-left: 20%;
-    }
-    .name{
-        margin-left: 20%;
-    }
-    .message{
-        margin-left: 20%;
-        margin-top: 4%;
     }
     
-     
+    .mind h1{
+        margin-top: -1%;
+        margin-left: 10%;
+    }
+    
     .butt{
         margin-left: 20%;
         margin-top: 4%;
         color: #00ff0d;
     }
 
- 
- 
+ .image3{
+     margin-top: -50%;
+     margin-left: 30%;
+ }
+ .work h4{
+     margin-top: -20%;
+ }
+ .work h4{
+     margin-top: 5%;
+     margin-left: 3%;
 
+ }.End{
+     margin-top: -5%;
+ }
+ .footer{
+     font-size: 30px;
+     margin-left: 2%;
+     margin-top: -16%;
+ }
+ .form1{
+     margin-top: -2%;
+     
+ }
+ .form2 input{
+     margin-bottom: -30%;
+    background-color: #ffc0cb;
+ }
+ .Final{
+     height: 600px;
+     background-color: rgb(252,250,250);
+ }
+ .send input{
+     margin-top: -40%;
+ }.form1 input{
+     background-color: #ffc0cb;
+ }.send input{
+     background-color: #00ff0d;
+     border-radius: 30px;
+     padding: 5px;
+     margin-left: 7%;
+     margin-top: -10%;
+     
+ }.dev i{
+     background-color: #ffffff;
+ }
+ .design i{
+     background-color: #0000ff;
+ }
+ .crown{
+     background-color: #ffff00;
+
+ }
     
 
 
